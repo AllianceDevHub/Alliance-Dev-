@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="rw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alliance Dev - Web Design Kigali</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'navy': '#0a192f',
+            'blue': '#007bff'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-navy text-white">
 
+  <!-- HEADER -->
+  <header class="bg-gradient-to-r from-navy to-blue py-20 px-6 text-center">
+    <img src="log.png" alt="Alliance Dev Logo"
+     class="w-32 h-32 mx-auto mb-6 rounded-full shadow-2xl border-4 border-cyan-500 object-contain bg-white p-2">
+    <h1 class="text-5xl font-bold mb-4">Alliance Dev</h1>
+    <p class="text-xl text-gray-300 mb-8">Turakora Websites z'Abanyamwuga za Kigali</p>
+    <a href="https://wa.me/250727717537" class="bg-blue hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition">
+      Tuvugishe kuri WhatsApp
+    </a>
+  </header>
+
+  <!-- SERVICES -->
+  <section class="py-16 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12 text-blue">Ibyo Dukora</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-[#112240] p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+        <h3 class="text-2xl font-bold mb-3">Website ya Business</h3>
+        <p class="text-gray-400">Igaragaza serivisi zawe 24/7 kandi igaragara neza kuri phone</p>
+      </div>
+      <div class="bg-[#112240] p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+        <h3 class="text-2xl font-bold mb-3">Online Shop</h3>
+        <p class="text-gray-400">Gurisha ibicuruzwa byawe kuri WhatsApp byoroshye</p>
+      </div>
+      <div class="bg-[#112240] p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+        <h3 class="text-2xl font-bold mb-3">Landing Page</h3>
+        <p class="text-gray-400">Menya ibicuruzwa vuba kandi wongere abakiliya</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="py-16 px-6 bg-[#112240]">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8 text-blue">Kuki Waturutoranya?</h2>
+      <div class="grid md:grid-cols-3 gap-6 text-lg">
+        <p>✅ Bikorwa muminsi 3</p>
+        <p>✅ Igiciro cyo hasi</p>
+        <p>✅ Support ya 24/7</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 px-6 text-center">
+    <h2 class="text-4xl font-bold mb-4">Tubaze Igiciro Uyu Munsi</h2>
+    <p class="text-gray-400 mb-8">Tanga project yawe dusange dukore</p>
+    <a href="https://wa.me/250727717537" class="bg-blue hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-xl text-xl transition">
+      Ohereza Ubutumwa
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black py-6 text-center text-gray-500">
+    <p>© 2026 Alliance Dev. Kigali, Rwanda. | Twubaka ejo hazaza hawe</p>
+  </footer>
+
+</body>
+    </html>
